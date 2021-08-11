@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CityCell" id="gTV-IL-0wX" customClass="CityCell" customModule="HexawareDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clear Sky" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fc5-Cb-tcg">
+                        <rect key="frame" x="118.5" y="16" width="83" height="20"/>
+                        <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gentle breeze" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBL-fX-u3d">
+                        <rect key="frame" x="118" y="36" width="84.5" height="16"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5z-Lk-dAb">
+                        <rect key="frame" x="0.0" y="60" width="320" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="az3-13-mRY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dd6-VJ-Wot">
+                        <rect key="frame" x="20" y="73" width="30" height="16"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DateValue" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VO4-1b-4Pu">
+                        <rect key="frame" x="236" y="72" width="65" height="16"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFy-hg-kaf">
+                        <rect key="frame" x="0.0" y="100" width="320" height="1"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="WRb-Po-T9f"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJc-1M-GQn">
+                        <rect key="frame" x="20" y="113" width="32" height="16"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TimeValue" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MH7-4l-IC1">
+                        <rect key="frame" x="233" y="113" width="68" height="16"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czz-kV-ncm">
+                        <rect key="frame" x="0.0" y="140" width="320" height="1"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="ffu-1a-4YG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wind" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dht-Dt-VKt">
+                        <rect key="frame" x="20" y="153" width="35" height="16"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WindValue" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJT-jk-Cf7">
+                        <rect key="frame" x="231" y="153" width="70" height="16"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOS-4j-HTo">
+                        <rect key="frame" x="0.0" y="180" width="320" height="1"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="8d9-ZV-a0Y"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Humidity" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crb-Nh-aI3">
+                        <rect key="frame" x="20" y="191" width="60" height="16"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HumidityValue" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIm-Dm-lsO">
+                        <rect key="frame" x="206" y="191" width="95" height="16"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kH8-ir-lbw">
+                        <rect key="frame" x="0.0" y="220" width="320" height="1"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="OtT-43-47x"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pressure" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8H-gG-hck">
+                        <rect key="frame" x="20" y="230" width="54" height="16"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PressureValue" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EmC-xW-Bxr">
+                        <rect key="frame" x="212" y="230" width="89" height="16"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBV-Js-1BP">
+                        <rect key="frame" x="0.0" y="260" width="320" height="1"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="szh-sF-gjW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visibility" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wja-sE-okH">
+                        <rect key="frame" x="20" y="270" width="56" height="16"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VisibilityValue" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0jD-s9-rfb">
+                        <rect key="frame" x="210" y="270" width="91" height="16"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100F" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9dn-aq-KWK">
+                        <rect key="frame" x="238.5" y="17" width="64.5" height="28.5"/>
+                        <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="25"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="crb-Nh-aI3" firstAttribute="leading" secondItem="dht-Dt-VKt" secondAttribute="leading" id="4Sp-3N-GeU"/>
+                <constraint firstItem="RJc-1M-GQn" firstAttribute="top" secondItem="dFy-hg-kaf" secondAttribute="bottom" constant="12" id="57l-7K-LUB"/>
+                <constraint firstItem="9dn-aq-KWK" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="17" id="630-7L-ivs"/>
+                <constraint firstItem="ZBL-fX-u3d" firstAttribute="top" secondItem="Fc5-Cb-tcg" secondAttribute="bottom" id="6MD-WV-3Zx"/>
+                <constraint firstItem="dFy-hg-kaf" firstAttribute="top" secondItem="l5z-Lk-dAb" secondAttribute="bottom" constant="39" id="9eM-mM-clR"/>
+                <constraint firstItem="l5z-Lk-dAb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="9u8-yW-gxQ"/>
+                <constraint firstItem="K8H-gG-hck" firstAttribute="top" secondItem="kH8-ir-lbw" secondAttribute="bottom" constant="9" id="CAQ-UA-1RV"/>
+                <constraint firstAttribute="trailing" secondItem="l5z-Lk-dAb" secondAttribute="trailing" id="Cg5-bd-RHg"/>
+                <constraint firstItem="EmC-xW-Bxr" firstAttribute="trailing" secondItem="KIm-Dm-lsO" secondAttribute="trailing" id="DaW-Ss-7Iv"/>
+                <constraint firstAttribute="trailing" secondItem="gBV-Js-1BP" secondAttribute="trailing" id="ElN-jW-Eix"/>
+                <constraint firstAttribute="trailing" secondItem="Czz-kV-ncm" secondAttribute="trailing" id="GTp-LM-g0z"/>
+                <constraint firstItem="dht-Dt-VKt" firstAttribute="leading" secondItem="RJc-1M-GQn" secondAttribute="leading" id="HQ9-PN-C6Y"/>
+                <constraint firstItem="VO4-1b-4Pu" firstAttribute="top" secondItem="l5z-Lk-dAb" secondAttribute="bottom" constant="11" id="Ie5-Xq-eAt"/>
+                <constraint firstItem="ZBL-fX-u3d" firstAttribute="centerX" secondItem="Fc5-Cb-tcg" secondAttribute="centerX" id="KVa-xa-K4q"/>
+                <constraint firstItem="yOS-4j-HTo" firstAttribute="top" secondItem="Czz-kV-ncm" secondAttribute="bottom" constant="39" id="PMs-bb-jtK"/>
+                <constraint firstAttribute="trailing" secondItem="VO4-1b-4Pu" secondAttribute="trailing" constant="19" id="Pmx-EU-e75"/>
+                <constraint firstItem="crb-Nh-aI3" firstAttribute="top" secondItem="yOS-4j-HTo" secondAttribute="bottom" constant="10" id="R28-Aq-9qG"/>
+                <constraint firstItem="RJc-1M-GQn" firstAttribute="leading" secondItem="Dd6-VJ-Wot" secondAttribute="leading" id="UnE-3T-AbM"/>
+                <constraint firstAttribute="bottom" secondItem="0jD-s9-rfb" secondAttribute="bottom" constant="14" id="WfP-N8-cLA"/>
+                <constraint firstItem="KIm-Dm-lsO" firstAttribute="trailing" secondItem="fJT-jk-Cf7" secondAttribute="trailing" id="XLf-rq-Nhl"/>
+                <constraint firstItem="MH7-4l-IC1" firstAttribute="trailing" secondItem="VO4-1b-4Pu" secondAttribute="trailing" id="XM5-be-5Bc"/>
+                <constraint firstItem="dFy-hg-kaf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cA4-rI-JLe"/>
+                <constraint firstItem="wja-sE-okH" firstAttribute="leading" secondItem="K8H-gG-hck" secondAttribute="leading" id="cAg-aG-o53"/>
+                <constraint firstAttribute="bottom" secondItem="wja-sE-okH" secondAttribute="bottom" constant="14" id="cVS-QU-qTg"/>
+                <constraint firstItem="fJT-jk-Cf7" firstAttribute="trailing" secondItem="MH7-4l-IC1" secondAttribute="trailing" id="ciy-zu-erb"/>
+                <constraint firstAttribute="trailing" secondItem="yOS-4j-HTo" secondAttribute="trailing" id="esc-NS-eU8"/>
+                <constraint firstItem="kH8-ir-lbw" firstAttribute="top" secondItem="yOS-4j-HTo" secondAttribute="bottom" constant="39" id="fQX-97-1WV"/>
+                <constraint firstItem="wja-sE-okH" firstAttribute="top" secondItem="gBV-Js-1BP" secondAttribute="bottom" constant="9" id="fw0-wu-9BX"/>
+                <constraint firstItem="Dd6-VJ-Wot" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="gp7-b0-WCN"/>
+                <constraint firstItem="gBV-Js-1BP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="hHk-ol-s2v"/>
+                <constraint firstItem="EmC-xW-Bxr" firstAttribute="top" secondItem="kH8-ir-lbw" secondAttribute="bottom" constant="9" id="hNA-3C-FIN"/>
+                <constraint firstItem="Dd6-VJ-Wot" firstAttribute="top" secondItem="l5z-Lk-dAb" secondAttribute="bottom" constant="12" id="iZF-hb-vRi"/>
+                <constraint firstAttribute="trailing" secondItem="kH8-ir-lbw" secondAttribute="trailing" id="jxL-BN-Rq0"/>
+                <constraint firstItem="MH7-4l-IC1" firstAttribute="top" secondItem="dFy-hg-kaf" secondAttribute="bottom" constant="12" id="kdM-hU-ETi"/>
+                <constraint firstItem="l5z-Lk-dAb" firstAttribute="top" secondItem="ZBL-fX-u3d" secondAttribute="bottom" constant="8" id="kry-vT-xBF"/>
+                <constraint firstAttribute="trailing" secondItem="dFy-hg-kaf" secondAttribute="trailing" id="mHj-F1-6y9"/>
+                <constraint firstItem="yOS-4j-HTo" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="oWR-xY-4XW"/>
+                <constraint firstItem="0jD-s9-rfb" firstAttribute="top" secondItem="gBV-Js-1BP" secondAttribute="bottom" constant="9" id="ow4-Uk-cVr"/>
+                <constraint firstItem="Fc5-Cb-tcg" firstAttribute="centerX" secondItem="l5z-Lk-dAb" secondAttribute="centerX" id="p1U-I3-qUy"/>
+                <constraint firstItem="Czz-kV-ncm" firstAttribute="top" secondItem="dFy-hg-kaf" secondAttribute="bottom" constant="39" id="qtp-tM-VUq"/>
+                <constraint firstItem="kH8-ir-lbw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="sEz-L7-fuq"/>
+                <constraint firstItem="0jD-s9-rfb" firstAttribute="trailing" secondItem="EmC-xW-Bxr" secondAttribute="trailing" id="t1I-et-i1d"/>
+                <constraint firstItem="Czz-kV-ncm" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="uFM-8F-bH8"/>
+                <constraint firstItem="dht-Dt-VKt" firstAttribute="top" secondItem="Czz-kV-ncm" secondAttribute="bottom" constant="12" id="uMJ-bk-s2b"/>
+                <constraint firstItem="gBV-Js-1BP" firstAttribute="top" secondItem="kH8-ir-lbw" secondAttribute="bottom" constant="39" id="ubm-xp-Fjm"/>
+                <constraint firstAttribute="trailing" secondItem="9dn-aq-KWK" secondAttribute="trailing" constant="17" id="ux5-cj-So9"/>
+                <constraint firstItem="l5z-Lk-dAb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="60" id="vhf-he-uXC"/>
+                <constraint firstItem="KIm-Dm-lsO" firstAttribute="top" secondItem="yOS-4j-HTo" secondAttribute="bottom" constant="10" id="wdf-SI-50c"/>
+                <constraint firstItem="K8H-gG-hck" firstAttribute="leading" secondItem="crb-Nh-aI3" secondAttribute="leading" id="wpf-JO-cq5"/>
+                <constraint firstItem="fJT-jk-Cf7" firstAttribute="top" secondItem="Czz-kV-ncm" secondAttribute="bottom" constant="12" id="xae-hR-ALj"/>
+            </constraints>
+            <size key="customSize" width="217" height="245"/>
+            <connections>
+                <outlet property="DateLabel" destination="VO4-1b-4Pu" id="AWc-rh-TWj"/>
+                <outlet property="DescnWetherLabel" destination="ZBL-fX-u3d" id="6O2-Km-6Bo"/>
+                <outlet property="TimeLabel" destination="MH7-4l-IC1" id="7VL-gX-xZx"/>
+                <outlet property="humidityLabel" destination="KIm-Dm-lsO" id="RdS-9E-EDR"/>
+                <outlet property="mainWetherLabel" destination="Fc5-Cb-tcg" id="xK2-uO-SDP"/>
+                <outlet property="pressureLabel" destination="EmC-xW-Bxr" id="E26-qu-yXs"/>
+                <outlet property="temperatureLabel" destination="9dn-aq-KWK" id="HX2-6j-rm6"/>
+                <outlet property="visibiltyLabel" destination="0jD-s9-rfb" id="AOG-wg-xIk"/>
+                <outlet property="windLabel" destination="fJT-jk-Cf7" id="fbc-UA-Ove"/>
+            </connections>
+            <point key="canvasLocation" x="157.97101449275362" y="132.58928571428572"/>
+        </collectionViewCell>
+    </objects>
+</document>
