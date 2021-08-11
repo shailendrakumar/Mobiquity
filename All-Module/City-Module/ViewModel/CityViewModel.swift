@@ -180,7 +180,10 @@ extension CityVM : UICollectionViewDelegate,UICollectionViewDataSource {
             let Split = DateTime.components(separatedBy: " ")
             switch self.settingsValue {
             case .kImperial:
-                cell.temperatureLabel.text =  "\(String(describing: Mains.value(forKey:"temp")!))" + .kImperialTemp
+                let temp = Double("\(String(describing: Mains.value(forKey:"temp")!))")
+                let tempValue = Double(round(1000*temp!)/1000)
+                
+                cell.temperatureLabel.text =  "\(tempValue)" + .kImperialTemp
                 cell.windLabel.text = "Wind: \(Winds.value(forKey:"speed") ?? 0)"  + .kImperialWind
             case .kMetric:
                 cell.temperatureLabel.text = "\(String(describing: Mains.value(forKey:"temp")!))" + .kMetricTemp
